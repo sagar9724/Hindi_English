@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    <div class=" container d-flex justify-content-center align-items-center" style="height: 100px;">
+        <h1>Hindi to English Translation Test</h1>
+    </div>
+
+    <div class=" container d-flex justify-content-center align-items-center" style="height: 100px;">
+        <h1 id="timer"></h1>
+    </div>
+    <form action="/" method="post">
+        <div class=" container d-flex justify-content-center align-items-center" style="height: 100px;">
+            <h1 id="hindi" name="hindi"></h1>
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center" style="height: 100px;">
+            <textarea id="english" name="english" class="md-textarea form-control" rows="3"></textarea>
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center" >
+            <input type="number" name="num" style="display: none;" value={{num}}>
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center" >
+            <label for="" id="score" name="score"></label>
+        </div>
+        <div class=" container d-flex justify-content-center align-items-center" style="height: 100px;">
+           <button type="button" id="next" class="btn btn-primary">Next</button>
+           {{!-- <button type="submit" class="btn btn-primary">Submit</button> --}}
+        </div>
+
+    </form>
+
+
+
+
+
+    {{>footer}}
+</body>
+
+</html>

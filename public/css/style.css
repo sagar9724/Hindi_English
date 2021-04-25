@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right top, #b66bd1, #a861d3, #9958d5, #8650d7, #6f49da, #6042d8, #4f3bd5, #3935d3, #322bcb, #2a20c3, #2113bb, #1700b3);
+    height:100vh;
+    color:white;
+    
+}
+
+#english{
+    padding:0px;
+    width:70%;
+    font-size: large;
+    box-sizing: border-box;
+}
